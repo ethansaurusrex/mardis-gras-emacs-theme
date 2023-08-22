@@ -22,7 +22,7 @@
 
 ;;; Code:
 
-(deftheme Mardi
+(deftheme mardis-gras
   "Daquiri not included")
 
 (let ((class '((class color) (min-colors 89)))
@@ -69,7 +69,7 @@
       (default           "#d6d6d6"))
 
   (custom-theme-set-faces
-   'Mardi
+   'mardis-gras
    `(default                                  ((,class (:background ,bg0 :foreground ,fg0))))
 
    `(font-lock-builtin-face                   ((,class (:foreground ,builtin))))
@@ -125,7 +125,7 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'Mardi)
-(provide 'Mardi-theme)
+(provide-theme 'mardis-gras)
+(provide 'mardis-gras)
 
 ;;; mardis-gras-theme.el ends here

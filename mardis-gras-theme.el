@@ -1,6 +1,6 @@
 ;;; mardis-gras-theme.el
 
-;; Copyright (C) 2023 Ethan Matus
+;; Copyright (C) 2025 Ethan Matus
 
 ;; Author: Ethan Matus
 ;; Version: 0.0.0
